@@ -13,8 +13,7 @@ to _enhance the learning process_ by saving customers time.
 - Running the **EMS** _RESTful API_ requires JDK 17. For best performance use Liberica JDK 17,
   download from [here](https://bell-sw.com/pages/downloads/#).
 - Apache Maven 3.8.6+, download from [here](https://maven.apache.org/download.cgi).
-- Data management is operated by using a relational database management system. **MySQL Community Server**, _version_ **
-  8.0.30** required, downloaded from [here](https://dev.mysql.com/downloads/mysql/).
+- Data management is operated by using a relational database management system. **MySQL Community Server**, _version_ **8.0.30** required, downloaded from [here](https://dev.mysql.com/downloads/mysql/).
 - Depending on the features you want to use, you may need some third-party software, such
   as [DataGrip](https://www.jetbrains.com/datagrip/download/#section=windows) (payed)
   or [MySQL Workbench](https://dev.mysql.com/downloads/workbench/) (free) for data modeling, SQL development, and
