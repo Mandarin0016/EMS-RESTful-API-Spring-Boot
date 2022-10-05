@@ -272,7 +272,7 @@ Response body:
 
 ## Contributing
 
-Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change in the following GitHub repository: https://github.com/Mandarin0016/EMS-RESTful-API-Spring-Boot.git
 
 ## License
 
