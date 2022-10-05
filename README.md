@@ -65,13 +65,12 @@ jwt.secret: ${JWT_SECRET:{default_secret}}
   configuration for the [SecurityConfig.java](src/main/java/org/modis/EmsApplication/config/SecurityConfig.java) must be
   changed. Follow the steps bellow:
 
-1. Comment method <u>**securityFilterChain**</u>
-2. Uncomment method <u>**securityFilterChainTestDataInit**</u>
-3. Run the application
-4. Run <u>**InitializeDatabaseCollectionRequest.http**</u>
-5. Stop the application
-6. Reverse the changes by comment method <u>**securityFilterChainTestDataInit**</u> and uncomment <u>**
-   securityFilterChain**</u>
+1. Change the value for ```environments.init-data.value``` to **true** within ```application.yaml``` file.
+2. Run the application
+3. Run <u>**InitializeDatabaseCollectionRequest.http**</u>
+4. Stop the application
+5. Reverse the changes by setting ```environments.init-data.value``` to **false**.
+6. Run the application again.
 
 ## Request & Response Examples
 
